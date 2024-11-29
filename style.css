@@ -1,0 +1,32 @@
+/* Variables */
+:root {
+  /* Colors */
+  --aqua-blue: #47BFDF;
+  --blue-ribbon: #4A91FF;
+  --white: #ffffff;
+  --slate-gray: #838BAA;
+  --steel-blue: #444E72;
+
+  /* Font weight */
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+  --font-size-large: 1.5rem;
+
+  /* Font size */
+  --font-size-text: 18px;
+  --font-size-heading:24px;
+  --font-size-big: 100px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Overpass", sans-serif;
+  font-weight: var(--font-weight-regular);
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+  font-style: normal;
+}
